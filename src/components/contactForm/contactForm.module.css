@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: rgb(95, 202, 219);
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
