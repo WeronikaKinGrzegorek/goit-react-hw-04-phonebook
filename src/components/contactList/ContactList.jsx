@@ -1,5 +1,7 @@
 import React from 'react';
+
 import PropTypes from 'prop-types';
+
 import css from './contactList.module.css';
 
 export const ContactList = ({ contacts, onDelete }) => (

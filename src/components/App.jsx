@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { nanoid } from 'nanoid';
+
 import { ContactForm } from './contactForm/ContactForm';
 import { Filter } from './filter/Filter';
 import { ContactList } from './contactList/ContactList';
-import { nanoid } from 'nanoid';
 
 import css from './app.module.css';
+
 const initialContacts = [
   { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
   { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },

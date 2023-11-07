@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import css from './contactForm.module.css';
 import { nanoid } from 'nanoid';
+
+import PropTypes from 'prop-types';
+
+import css from './contactForm.module.css';
 
 export const ContactForm = ({ onSubmit }) => {
   const [name, setName] = useState('');
